@@ -3,7 +3,7 @@ import java.util.Scanner
 fun main(args: Array<String>) {
     val sc = Scanner(System.`in`)
 
-    println("Enter a number")
+    println("Enter number")
     val number = sc.nextInt()
     if(checkArmstrong(number)) {
         println("$number is an Armstrong number")
